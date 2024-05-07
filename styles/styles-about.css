@@ -204,3 +204,6 @@ body{
     background-color: rgb(32, 32, 32);
     text-align: center;
 }
+.interests .my-interest div:hover {
+    background-color: turquoise; 
+}
