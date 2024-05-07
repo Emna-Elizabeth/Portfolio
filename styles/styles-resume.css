@@ -1,0 +1,140 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    /* background-image: url("https://images.unsplash.com/photo-1448067686092-1f4f2070baae?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTZ8fHBvcnRmb2xpbyUyMGJhY2tncm91bmQlMjBibGFja3xlbnwwfHwwfHx8MA%3D%3D"); */
+    background-repeat: no-repeat;
+    background-color: black;
+    background-size:cover;
+    color: white;
+
+}
+.container h1{
+    color: white;
+    position: relative;
+    top: -10px;
+}
+.header{
+   
+    height: 20px;
+    width: 100%;
+}
+.nav{
+    display: flex;
+    flex-direction: row; 
+}
+.nav ul{
+   position: relative;
+   left: 500px;
+}
+.nav li{
+    list-style-type: none;
+    display: inline;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 18px;
+}
+.nav a{
+    text-decoration: none;
+    color:white; 
+    font-weight: 3px;
+    text-shadow: 0px 4px 4px rgb(0,0,0,0.25);
+}
+.education-items{
+    display: inline-block;
+    padding-left: 30px;
+
+}
+.education-items div{
+    padding-right: 80px;
+
+}
+.education-items h4{
+    color: turquoise;
+    font-size: 20px;
+}
+.education-items h5{
+   background-color: rgb(67, 66, 66);
+   width: fit-content;
+    margin: 5px;
+    padding: 5px;
+    font-size: 15px;
+}
+
+.section-title{
+    display: inline-block;
+    padding-left: 30px;
+}
+.section-title hr{
+    width: 67px;
+    margin-left: 1px;
+   border-color: turquoise;
+}
+.section-title p{
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+.section-title h2{
+    font-size: 17px;
+}
+.education{
+    padding-left: 40px;
+}
+.education-items{
+    display: flex;
+}
+.resume-item{
+    width: 500px;
+    border-left: 2px solid rgb(86, 85, 85);
+    padding-left: 20px;
+}
+.resume-item p{
+    font-size: larger;
+}
+.resume-item {
+    position: relative; 
+  }
+  
+  .resume-item::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -10px; 
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: turquoise; 
+  }
+  .projects{
+    padding-left: 40px;
+  }
+  .items{
+    display: flex;
+    margin: 40px;
+  }
+  .project-item{
+    background-color: rgb(32, 32, 32);
+    justify-content: center;
+    padding: 70px;
+    border-radius: 20%;
+    margin: 10px;
+    width: 80%;
+  }
+  .fade-in {
+    opacity: 80%;
+    transition: opacity 0.5s ease-in-out;
+}
+.fade-in.active {
+    opacity: 30;
+}
+.project-item {
+    opacity: 60%;
+    transition: opacity 0.5s ease;
+}
+
+.project-item:hover {
+    opacity: 300; 
+    transform: scale(1.5);
+    color: turquoise;
+}
+

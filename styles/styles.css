@@ -4,7 +4,7 @@ body{
     /* background-image: url("https://images.pexels.com/photos/3473569/pexels-photo-3473569.jpeg?auto=compress&cs=tinysrgb&w=600"); */
     /* background-image: url("../assets/Media\ \(1\).jpg"); */
     /* background-image: url("https://t4.ftcdn.net/jpg/06/76/12/89/240_F_676128962_DINDk0BIXaxemUzKEhucr8wgsZRKpXLh.jpg"); */
-    background-image: url("https://images.unsplash.com/photo-1448067686092-1f4f2070baae?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTZ8fHBvcnRmb2xpbyUyMGJhY2tncm91bmQlMjBibGFja3xlbnwwfHwwfHx8MA%3D%3D");
+    /* background-image: url("https://images.unsplash.com/photo-1448067686092-1f4f2070baae?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTZ8fHBvcnRmb2xpbyUyMGJhY2tncm91bmQlMjBibGFja3xlbnwwfHwwfHx8MA%3D%3D"); */
     background-repeat: no-repeat;
     /* background-size: cover; */
     height: fit-content;
@@ -15,6 +15,9 @@ body{
     background-size:cover;
  
 }
+
+
+
 .nav{
     height:fit-content; 
     /* padding: 10px;  */
