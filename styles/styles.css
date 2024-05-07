@@ -1,0 +1,118 @@
+body{
+    background-color: black;
+    color: white;
+    /* background-image: url("https://images.pexels.com/photos/3473569/pexels-photo-3473569.jpeg?auto=compress&cs=tinysrgb&w=600"); */
+    /* background-image: url("../assets/Media\ \(1\).jpg"); */
+    /* background-image: url("https://t4.ftcdn.net/jpg/06/76/12/89/240_F_676128962_DINDk0BIXaxemUzKEhucr8wgsZRKpXLh.jpg"); */
+    background-image: url("https://images.unsplash.com/photo-1448067686092-1f4f2070baae?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTZ8fHBvcnRmb2xpbyUyMGJhY2tncm91bmQlMjBibGFja3xlbnwwfHwwfHx8MA%3D%3D");
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    height: fit-content;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+    text-align: right;
+    background-size:cover;
+ 
+}
+.nav{
+    height:fit-content; 
+    /* padding: 10px;  */
+    display:flex;
+    justify-content: space-between;
+    
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: start;
+    
+}
+.nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+    /* position: relative;
+    top: 60px; */
+    
+}
+.nav a{
+    text-decoration: none;
+    color: rgb(225, 221, 221);
+    /* display: flex; */
+    justify-content: space-between;
+    margin-bottom: 50px;
+    font-size: 20px;
+    display: inline;
+    /* margin-right: 20px; */
+    position: relative;
+    top: 45px;
+    padding-left: 20px;
+    margin-left: 20px;
+    
+   
+
+}
+
+.nav a::after{
+    content: "";
+    position: absolute;
+   left: 0;
+    bottom: -3px;
+    width: 0%;
+    height: 2px;
+    margin-left: 15px;
+    background-color:lightblue;
+    transition: width 0.5s ease;
+    
+}
+.nav a:hover::after{
+    width:80%;
+}
+
+
+.nav li{
+   list-style: none;
+
+}
+
+.container{
+    /* display: flex; */
+    text-align: center;
+    padding-left: 40px;
+    padding-top: 30px;
+    height: fit-content;
+}
+.container h1{
+    font-size: 50px;
+    word-spacing: 3px;
+    letter-spacing: 0.5px;
+    color:rgb(225, 221, 221);
+}
+.container p{
+    font-size: 35px;
+    color: rgb(225, 221, 221);;
+}
+.line{
+    background-color: lightblue;
+    height: 2px;
+    width: 35%;
+    padding-left: 100px;
+    margin-left: 80px;
+}
+.icons{
+    margin-top: 80px;
+    
+}
+.icons a{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.icons a:hover svg {
+    transform: scale(1.5); 
+    transition: transform 0.3s ease; 
+}
+

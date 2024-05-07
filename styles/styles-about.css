@@ -1,0 +1,14 @@
+body{
+    background-color: grey;
+    color: white;
+    /* background-image: url("https://getwallpapers.com/wallpaper/full/e/5/c/1273768-free-download-pink-and-black-rose-wallpaper-1920x1080.jpg"); */
+    background-image: url("../assets/Media\ \(1\).jpg");
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    height: fit-content;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+    text-align: right;
+    background-size:contain;
+}
