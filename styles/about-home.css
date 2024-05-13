@@ -1,0 +1,85 @@
+.slanted-container{
+    display: flex;
+   
+}
+.slanted{
+    position: relative;
+    height: 100%;
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    transition: width 0.3s ease;
+}
+.slanted-black{
+    background-color: black;
+    color: white;
+    height: 100vh;
+    width: 50%;
+    transform-origin: top;
+    transform: skewX(-10deg);
+}
+.slanted-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+  
+    background-image: linear-gradient(gold, gold);
+    background-size: 100% 10px;
+    background-repeat: no-repeat;
+    background-position: 100% 0%;
+    transition: background-size .7s, background-position .5s ease-in-out;
+
+}
+h4{
+    padding-left: 30px;
+}
+.slanted:hover{
+    width: 100%;
+}
+.slanted-white{
+    height: 100vh;
+    width: 50%;
+    transform-origin: top;
+    transform: skewX(-10deg);
+}
+.nav{
+    display: flex;
+    flex-direction: row; 
+}
+
+.nav li{
+    list-style-type: none;
+    display: inline;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 18px;
+}
+.nav a{
+    text-decoration: none;
+    color:black; 
+    font-weight: 3px;
+    text-shadow: 0px 4px 4px rgb(0,0,0,0.25);
+}
+.slanted-content {
+   
+    
+    
+  }
+   
+  .slanted-content:hover {
+    background-size: 100% 100%;
+    background-position: 0% 100%;
+    transition: background-position .7s, background-size .5s ease-in-out;
+    color: black;
+  }
+  .slanted-content a{
+    text-decoration: none;
+    color: red;
+  }
+  .back{
+  position: relative;
+  left: 600px;
+  }
+ 
