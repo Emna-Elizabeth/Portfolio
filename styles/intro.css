@@ -1,57 +1,21 @@
-.intro-banner {
-    align-items: center;
-    display: flex;
-    height: 100vh;
-    position: relative;
-    justify-content: center;
-    z-index: -1;
-  }
-   
-  .intro-banner__title {
-    color: #fff;
-    font-size: 100px;
-    font-weight: 700;
-    padding: 0 20px;
-    position: absolute;
-    text-align: center;
-    text-transform: uppercase;
-  }
-   
-  .intro-banner__stroked-title {
-    color: transparent;
-    -webkit-text-stroke: 2px white;
-    
-  }
-   
-  .intro-banner__image {
-    border-radius: 20px;
-    position: fixed;
-    transform: rotate(-15deg);
-    width: 450px;
-  }
-   
+
   .content {
-    background-color: #eaeaea;
+   
     font-size: 40px;
-    padding: 120px 80px;
+    padding: 120px 100px;
     height: 100vh; 
   }
    
   body {
-    background-color: #000;
+    background-color: #eaeaea;
     font-family: Arial;
   }
    
-  /* * {
-    box-sizing: border-box;
-  } */
-  
+ 
 .nav{
     height:fit-content; 
-    /* padding: 10px;  */
     display:flex;
     justify-content: space-between;
-    
     flex-wrap: wrap;
     flex-direction: row;
     align-items: start;
@@ -65,20 +29,15 @@
 
 .nav ul li{
     display: inline-block;
-    margin-right: 20px;
-    /* position: relative;
-    top: 60px; */
-    
+    margin-right: 20px; 
 }
 .nav a{
     text-decoration: none;
     color:black;
-    /* display: flex; */
     justify-content: space-between;
     margin-bottom: 50px;
     font-size: 20px;
     display: inline;
-    /* margin-right: 20px; */
     position: relative;
     top: 45px;
     padding-left: 20px;
@@ -128,7 +87,7 @@
 }
 .icons{
     position: absolute;
-    top: 1000px;
+    top: 500px;
     right: 50px;
     transform: translateY(-50%);
    
